@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D200B183231BEE7100588095 /* 4c447269-d8f3-4363-9e1b-3fca32e06982.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D200B182231BEE7100588095 /* 4c447269-d8f3-4363-9e1b-3fca32e06982.jpeg */; };
+		D200B187231DCD3D00588095 /* FirstEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D200B186231DCD3D00588095 /* FirstEvent.swift */; };
+		D224D0D52397EEC500679BD2 /* SixEventNovaGodina.swift in Sources */ = {isa = PBXBuildFile; fileRef = D224D0D42397EEC500679BD2 /* SixEventNovaGodina.swift */; };
+		D22B7F8022EFB26600DD5004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22B7F7F22EFB26600DD5004 /* AppDelegate.swift */; };
+		D22B7F8222EFB26600DD5004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22B7F8122EFB26600DD5004 /* ViewController.swift */; };
+		D22B7F8522EFB26600DD5004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22B7F8322EFB26600DD5004 /* Main.storyboard */; };
+		D22B7F8722EFB26800DD5004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22B7F8622EFB26800DD5004 /* Assets.xcassets */; };
+		D22B7F8A22EFB26800DD5004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22B7F8822EFB26800DD5004 /* LaunchScreen.storyboard */; };
+		D23A9207231B29020035534C /* 2Q+w52J0T4K62d4YV46IHg_thumb_26e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23A9206231B29020035534C /* 2Q+w52J0T4K62d4YV46IHg_thumb_26e8.jpg */; };
+		D23A920D231B3FF30035534C /* ilyKyOosQBmRmHyKVNuNiQ_thumb_26ec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23A920C231B3FF20035534C /* ilyKyOosQBmRmHyKVNuNiQ_thumb_26ec.jpg */; };
+		D23A9211231B40740035534C /* wNiQ9JNKQbaz6j5NKNXgKA_thumb_26ed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23A9210231B40740035534C /* wNiQ9JNKQbaz6j5NKNXgKA_thumb_26ed.jpg */; };
+		D23A9213231B41670035534C /* UNADJUSTEDNONRAW_thumb_25ab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23A9212231B41670035534C /* UNADJUSTEDNONRAW_thumb_25ab.jpg */; };
+		D23A9215231B4D8A0035534C /* xIEssOLOSdWW5b7TYF3qBg_thumb_26f9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23A9214231B4D8A0035534C /* xIEssOLOSdWW5b7TYF3qBg_thumb_26f9.jpg */; };
+		D23A921D231B51180035534C /* srvgpI8ORPCMxu9BKJa+7Q_thumb_26f7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23A921C231B51180035534C /* srvgpI8ORPCMxu9BKJa+7Q_thumb_26f7.jpg */; };
+		D244E120231F1ECF000691C9 /* SecondEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E11F231F1ECF000691C9 /* SecondEvent.swift */; };
+		D244E122231F21B5000691C9 /* ThirdEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E121231F21B5000691C9 /* ThirdEvent.swift */; };
+		D244E124231F22AA000691C9 /* FourthEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E123231F22AA000691C9 /* FourthEvent.swift */; };
+		D244E129231F27FD000691C9 /* FifthEventEgipat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E128231F27FD000691C9 /* FifthEventEgipat.swift */; };
+		D24C0494236A33F300A160D3 /* Medeni mesec Beograd 2019.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D24C0493236A33F300A160D3 /* Medeni mesec Beograd 2019.jpeg */; };
+		D24C0498236B5B7A00A160D3 /* SixEventNovaGodina.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24C0497236B5B7A00A160D3 /* SixEventNovaGodina.swift */; };
+		D24C049C236B5DA400A160D3 /* Sofija 6ti dogadjas nova godina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D24C049B236B5DA400A160D3 /* Sofija 6ti dogadjas nova godina.jpeg */; };
+		D2CDF427236A1F39005DA33D /* LJubljana tvrdjava.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2CDF426236A1F39005DA33D /* LJubljana tvrdjava.jpeg */; };
+		D2CDF429236A1F62005DA33D /* Rodjendan Banovci.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2CDF428236A1F62005DA33D /* Rodjendan Banovci.jpeg */; };
+		D2CDF42B236A2189005DA33D /* Sofija ljubljana portret.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2CDF42A236A2189005DA33D /* Sofija ljubljana portret.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D200B182231BEE7100588095 /* 4c447269-d8f3-4363-9e1b-3fca32e06982.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4c447269-d8f3-4363-9e1b-3fca32e06982.jpeg"; sourceTree = "<group>"; };
+		D200B186231DCD3D00588095 /* FirstEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstEvent.swift; sourceTree = "<group>"; };
+		D224D0D42397EEC500679BD2 /* SixEventNovaGodina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SixEventNovaGodina.swift; path = ../../../../../../../Desktop/SixEventNovaGodina.swift; sourceTree = "<group>"; };
+		D22B7F7C22EFB26600DD5004 /* Sofia's countdown magic tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sofia's countdown magic tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22B7F7F22EFB26600DD5004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D22B7F8122EFB26600DD5004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D22B7F8422EFB26600DD5004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22B7F8622EFB26800DD5004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22B7F8922EFB26800DD5004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22B7F8B22EFB26800DD5004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23A9206231B29020035534C /* 2Q+w52J0T4K62d4YV46IHg_thumb_26e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2Q+w52J0T4K62d4YV46IHg_thumb_26e8.jpg"; sourceTree = "<group>"; };
+		D23A920C231B3FF20035534C /* ilyKyOosQBmRmHyKVNuNiQ_thumb_26ec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ilyKyOosQBmRmHyKVNuNiQ_thumb_26ec.jpg; sourceTree = "<group>"; };
+		D23A9210231B40740035534C /* wNiQ9JNKQbaz6j5NKNXgKA_thumb_26ed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wNiQ9JNKQbaz6j5NKNXgKA_thumb_26ed.jpg; sourceTree = "<group>"; };
+		D23A9212231B41670035534C /* UNADJUSTEDNONRAW_thumb_25ab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UNADJUSTEDNONRAW_thumb_25ab.jpg; sourceTree = "<group>"; };
+		D23A9214231B4D8A0035534C /* xIEssOLOSdWW5b7TYF3qBg_thumb_26f9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xIEssOLOSdWW5b7TYF3qBg_thumb_26f9.jpg; sourceTree = "<group>"; };
+		D23A921C231B51180035534C /* srvgpI8ORPCMxu9BKJa+7Q_thumb_26f7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "srvgpI8ORPCMxu9BKJa+7Q_thumb_26f7.jpg"; sourceTree = "<group>"; };
+		D244E11F231F1ECF000691C9 /* SecondEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondEvent.swift; sourceTree = "<group>"; };
+		D244E121231F21B5000691C9 /* ThirdEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdEvent.swift; sourceTree = "<group>"; };
+		D244E123231F22AA000691C9 /* FourthEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthEvent.swift; sourceTree = "<group>"; };
+		D244E128231F27FD000691C9 /* FifthEventEgipat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthEventEgipat.swift; sourceTree = "<group>"; };
+		D24C0493236A33F300A160D3 /* Medeni mesec Beograd 2019.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Medeni mesec Beograd 2019.jpeg"; sourceTree = "<group>"; };
+		D24C0497236B5B7A00A160D3 /* SixEventNovaGodina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixEventNovaGodina.swift; sourceTree = "<group>"; };
+		D24C049B236B5DA400A160D3 /* Sofija 6ti dogadjas nova godina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sofija 6ti dogadjas nova godina.jpeg"; sourceTree = "<group>"; };
+		D2CDF426236A1F39005DA33D /* LJubljana tvrdjava.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LJubljana tvrdjava.jpeg"; sourceTree = "<group>"; };
+		D2CDF428236A1F62005DA33D /* Rodjendan Banovci.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rodjendan Banovci.jpeg"; sourceTree = "<group>"; };
+		D2CDF42A236A2189005DA33D /* Sofija ljubljana portret.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sofija ljubljana portret.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22B7F7922EFB26600DD5004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22B7F7322EFB26600DD5004 = {
+			isa = PBXGroup;
+			children = (
+				D22B7F7E22EFB26600DD5004 /* Sofia's countdown magic tool */,
+				D22B7F7D22EFB26600DD5004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22B7F7D22EFB26600DD5004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22B7F7C22EFB26600DD5004 /* Sofia's countdown magic tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22B7F7E22EFB26600DD5004 /* Sofia's countdown magic tool */ = {
+			isa = PBXGroup;
+			children = (
+				D22B7F8322EFB26600DD5004 /* Main.storyboard */,
+				D22B7F7F22EFB26600DD5004 /* AppDelegate.swift */,
+				D22B7F8122EFB26600DD5004 /* ViewController.swift */,
+				D244E127231F27B8000691C9 /* Events */,
+				D22B7F8622EFB26800DD5004 /* Assets.xcassets */,
+				D22B7F8822EFB26800DD5004 /* LaunchScreen.storyboard */,
+				D22B7F8B22EFB26800DD5004 /* Info.plist */,
+				D23A9206231B29020035534C /* 2Q+w52J0T4K62d4YV46IHg_thumb_26e8.jpg */,
+				D24C0493236A33F300A160D3 /* Medeni mesec Beograd 2019.jpeg */,
+				D23A920C231B3FF20035534C /* ilyKyOosQBmRmHyKVNuNiQ_thumb_26ec.jpg */,
+				D23A9210231B40740035534C /* wNiQ9JNKQbaz6j5NKNXgKA_thumb_26ed.jpg */,
+				D23A9212231B41670035534C /* UNADJUSTEDNONRAW_thumb_25ab.jpg */,
+				D23A9214231B4D8A0035534C /* xIEssOLOSdWW5b7TYF3qBg_thumb_26f9.jpg */,
+				D23A921C231B51180035534C /* srvgpI8ORPCMxu9BKJa+7Q_thumb_26f7.jpg */,
+				D200B182231BEE7100588095 /* 4c447269-d8f3-4363-9e1b-3fca32e06982.jpeg */,
+				D2CDF426236A1F39005DA33D /* LJubljana tvrdjava.jpeg */,
+				D2CDF428236A1F62005DA33D /* Rodjendan Banovci.jpeg */,
+				D2CDF42A236A2189005DA33D /* Sofija ljubljana portret.jpeg */,
+				D24C049B236B5DA400A160D3 /* Sofija 6ti dogadjas nova godina.jpeg */,
+			);
+			path = "Sofia's countdown magic tool";
+			sourceTree = "<group>";
+		};
+		D244E127231F27B8000691C9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				D200B186231DCD3D00588095 /* FirstEvent.swift */,
+				D244E11F231F1ECF000691C9 /* SecondEvent.swift */,
+				D244E121231F21B5000691C9 /* ThirdEvent.swift */,
+				D244E123231F22AA000691C9 /* FourthEvent.swift */,
+				D244E128231F27FD000691C9 /* FifthEventEgipat.swift */,
+				D24C0497236B5B7A00A160D3 /* SixEventNovaGodina.swift */,
+				D224D0D42397EEC500679BD2 /* SixEventNovaGodina.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22B7F7B22EFB26600DD5004 /* Sofia's countdown magic tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22B7F8E22EFB26800DD5004 /* Build configuration list for PBXNativeTarget "Sofia's countdown magic tool" */;
+			buildPhases = (
+				D22B7F7822EFB26600DD5004 /* Sources */,
+				D22B7F7922EFB26600DD5004 /* Frameworks */,
+				D22B7F7A22EFB26600DD5004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sofia's countdown magic tool";
+			productName = "Sofia's countdown magic tool";
+			productReference = D22B7F7C22EFB26600DD5004 /* Sofia's countdown magic tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22B7F7422EFB26600DD5004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Pi Solution";
+				TargetAttributes = {
+					D22B7F7B22EFB26600DD5004 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D22B7F7722EFB26600DD5004 /* Build configuration list for PBXProject "Sofia's countdown magic tool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22B7F7322EFB26600DD5004;
+			productRefGroup = D22B7F7D22EFB26600DD5004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22B7F7B22EFB26600DD5004 /* Sofia's countdown magic tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22B7F7A22EFB26600DD5004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23A9215231B4D8A0035534C /* xIEssOLOSdWW5b7TYF3qBg_thumb_26f9.jpg in Resources */,
+				D24C0494236A33F300A160D3 /* Medeni mesec Beograd 2019.jpeg in Resources */,
+				D2CDF427236A1F39005DA33D /* LJubljana tvrdjava.jpeg in Resources */,
+				D22B7F8A22EFB26800DD5004 /* LaunchScreen.storyboard in Resources */,
+				D23A9207231B29020035534C /* 2Q+w52J0T4K62d4YV46IHg_thumb_26e8.jpg in Resources */,
+				D2CDF42B236A2189005DA33D /* Sofija ljubljana portret.jpeg in Resources */,
+				D23A9213231B41670035534C /* UNADJUSTEDNONRAW_thumb_25ab.jpg in Resources */,
+				D22B7F8722EFB26800DD5004 /* Assets.xcassets in Resources */,
+				D23A9211231B40740035534C /* wNiQ9JNKQbaz6j5NKNXgKA_thumb_26ed.jpg in Resources */,
+				D23A920D231B3FF30035534C /* ilyKyOosQBmRmHyKVNuNiQ_thumb_26ec.jpg in Resources */,
+				D23A921D231B51180035534C /* srvgpI8ORPCMxu9BKJa+7Q_thumb_26f7.jpg in Resources */,
+				D2CDF429236A1F62005DA33D /* Rodjendan Banovci.jpeg in Resources */,
+				D24C049C236B5DA400A160D3 /* Sofija 6ti dogadjas nova godina.jpeg in Resources */,
+				D22B7F8522EFB26600DD5004 /* Main.storyboard in Resources */,
+				D200B183231BEE7100588095 /* 4c447269-d8f3-4363-9e1b-3fca32e06982.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22B7F7822EFB26600DD5004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D200B187231DCD3D00588095 /* FirstEvent.swift in Sources */,
+				D244E122231F21B5000691C9 /* ThirdEvent.swift in Sources */,
+				D244E124231F22AA000691C9 /* FourthEvent.swift in Sources */,
+				D22B7F8222EFB26600DD5004 /* ViewController.swift in Sources */,
+				D244E120231F1ECF000691C9 /* SecondEvent.swift in Sources */,
+				D24C0498236B5B7A00A160D3 /* SixEventNovaGodina.swift in Sources */,
+				D224D0D52397EEC500679BD2 /* SixEventNovaGodina.swift in Sources */,
+				D244E129231F27FD000691C9 /* FifthEventEgipat.swift in Sources */,
+				D22B7F8022EFB26600DD5004 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D22B7F8322EFB26600DD5004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22B7F8422EFB26600DD5004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D22B7F8822EFB26800DD5004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22B7F8922EFB26800DD5004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22B7F8C22EFB26800DD5004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D22B7F8D22EFB26800DD5004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22B7F8F22EFB26800DD5004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ALW49LXQY;
+				INFOPLIST_FILE = "Sofia's countdown magic tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pi-Solution.Sofia-s-countdown-magic-tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D22B7F9022EFB26800DD5004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ALW49LXQY;
+				INFOPLIST_FILE = "Sofia's countdown magic tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pi-Solution.Sofia-s-countdown-magic-tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22B7F7722EFB26600DD5004 /* Build configuration list for PBXProject "Sofia's countdown magic tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22B7F8C22EFB26800DD5004 /* Debug */,
+				D22B7F8D22EFB26800DD5004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22B7F8E22EFB26800DD5004 /* Build configuration list for PBXNativeTarget "Sofia's countdown magic tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22B7F8F22EFB26800DD5004 /* Debug */,
+				D22B7F9022EFB26800DD5004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22B7F7422EFB26600DD5004 /* Project object */;
+}
